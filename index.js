@@ -33,4 +33,4 @@ app.get('/api/shorturl/:id',function(req,res){
   const url = shortendUrls[id];
   res.redirect(url);
 })
-app.listen(3000)
+app.listen(port)
